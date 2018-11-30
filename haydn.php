@@ -6,6 +6,10 @@
   </head>
 
   <body>
+    <figure>
+      <img src="haydn.jpeg">
+      <figcaption>Portrait of Haydn</figcaption>
+    </figure>
 
     <h1>Franz Joseph Haydn (1732-1809)</h1>
     <h2>Father of the Symphony</h2>

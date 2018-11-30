@@ -6,6 +6,10 @@
   </head>
 
   <body>
+    <figure>
+      <img src="beethoven.jpeg">
+      <figcaption>Portrait of Beethoven</figcaption>
+    </figure>
 
     <h1>Ludwig van Beethoven (1770-1827)</h1>
 

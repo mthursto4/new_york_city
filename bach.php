@@ -6,6 +6,10 @@
   </head>
 
   <body>
+    <figure>
+      <img src="bach.jpeg">
+      <figcaption>Portrait of Bach</figcaption>
+    </figure>
 
     <h1>Carl Philipp Emanuel Bach (1714-1788)</h1>
 

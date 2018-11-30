@@ -6,6 +6,10 @@
   </head>
 
   <body>
+    <figure>
+      <img src="mozart.jpeg">
+      <figcaption>Portrait of Mozart</figcaption>
+    </figure>
 
     <h1>Wolfgang Amadeus Mozart (1756-1791)</h1>
 

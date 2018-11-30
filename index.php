@@ -7,6 +7,12 @@
 
   <body>
 
+    <figure>
+      <img src="images/piano-playing.jpg">
+      <img src="piano-playing2.jpg">
+      <figcaption>It's a Classic! (Literally)</figcaption>
+    </figure>
+
     <h1>Clean. Ordered. Genteel.</h1>
 
     <h2>Discover the origin of Class today</h2>
