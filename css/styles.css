@@ -1,0 +1,47 @@
+/*Base Style Section*/
+
+body {
+	color: white;
+	 background: url("../images/piano-playing.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+/*Module Style Section*/
+
+.start {
+	color: white;
+	font-family: 'Courgette', cursive;
+	font-size: 1.15em;
+	letter-spacing: 1.5px;
+	position: absolute;
+	padding: 10px;
+	bottom: 5%;
+	right: 3%;
+	background-color: rgba(0,0,0,0.6);
+	text-decoration: none;
+}
+
+.quote {
+	font-family: 'Lobster', cursive;
+	background-color: rgba(0,0,0,0.3);
+	text-align: center;
+	margin:0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
+
+.quote h1 {
+	font-size: 2.5em;
+	letter-spacing: 2.5px;
+}
+
+.quote h2 {
+	font-size:1.5em;
+	letter-spacing: 1.5px;
+}
