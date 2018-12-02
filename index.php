@@ -3,13 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>The Beauty of the Classics</title>
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
   <body>
 
+  	<nav>
+  		<ul>
+  			<li><a href="index.php">Home</a></li>
+  			<li><a href="bach.php">Johann Bach</a></li>
+  			<li><a href="beethoven.php">Ludwig Beethoven</a></li>
+  			<li><a href="haydn.php">Franz Haydn</a></li>
+  			<li><a href="mozart.php">Wolfgang Mozart</a></li>
+  		</ul>
+  	</nav>
+
     <figure>
       <img src="images/piano-playing.jpg">
-      <img src="piano-playing2.jpg">
+      <img src="images/piano-playing2.jpg">
       <figcaption>It's a Classic! (Literally)</figcaption>
     </figure>
 
