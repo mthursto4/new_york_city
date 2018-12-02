@@ -11,17 +11,28 @@ body {
 
 /*Module Style Section*/
 
-.start {
+.curious {
 	color: white;
 	font-family: 'Courgette', cursive;
 	font-size: 1.15em;
 	letter-spacing: 1.5px;
-	position: absolute;
-	padding: 10px;
-	bottom: 5%;
-	right: 3%;
+	position: absolute;	
 	background-color: rgba(0,0,0,0.6);
-	text-decoration: none;
+	padding:10px;
+	left: 1%;
+	bottom: 0;
+}
+
+.fact {
+	color: white;
+	font-family: 'Courgette', cursive;
+	font-size: 1.15em;
+	letter-spacing: 1.5px;
+	position: absolute;	
+	background-color: rgba(0,0,0,0.6);
+	padding:10px;
+	left: 1%;
+	top: 0;
 }
 
 .quote {
@@ -44,4 +55,17 @@ body {
 .quote h2 {
 	font-size:1.5em;
 	letter-spacing: 1.5px;
+}
+
+.start {
+	color: white;
+	font-family: 'Courgette', cursive;
+	font-size: 1.15em;
+	letter-spacing: 1.5px;
+	position: absolute;
+	padding: 10px;
+	bottom: 1%;
+	right: 1%;
+	background-color: rgba(0,0,0,0.6);
+	text-decoration: none;
 }
