@@ -9,7 +9,7 @@ include "inc/html-top.inc"
   ?>
 
     <figure>
-      <img src="bach.jpeg">
+      <img src="images/bach.jpeg">
       <figcaption>Portrait of Bach</figcaption>
     </figure>
 

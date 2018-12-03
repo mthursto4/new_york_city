@@ -10,7 +10,7 @@ include "inc/html-top.inc"
 
 
     <figure>
-      <img src="beethoven.jpeg">
+      <img src="images/beethoven.jpeg">
       <figcaption>Portrait of Beethoven</figcaption>
     </figure>
 
