@@ -1,11 +1,11 @@
 <?php
-include "inc/html-top.inc"
+include "inc/html-top.php"
 ?> 
 
   <body>
 
   <?php 
-  include "inc/nav.inc"
+  include "inc/nav.php"
   ?>
 
     <figure>
