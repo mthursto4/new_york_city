@@ -19,7 +19,7 @@ include "inc/html-top.inc"
 	</section>
 
 	<section>
-		<h3><a href="bach.php" class="start">Click here to get started!</a></h3>
+		<h3><a href="survey.php" class="start">Fill Out the Survey!</a></h3>
 	</section>
 
   </body>
