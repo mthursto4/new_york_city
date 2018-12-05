@@ -13,11 +13,11 @@ body {
 
 .curious {
 	color: white;
-	font-family: 'Courgette', cursive;
+	font-family: 'Kaushan Script', cursive;
 	font-size: 1.15em;
 	letter-spacing: 1.5px;
 	position: absolute;	
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.9);
 	padding:10px;
 	left: 1%;
 	bottom: 0;
@@ -25,19 +25,19 @@ body {
 
 .fact {
 	color: white;
-	font-family: 'Courgette', cursive;
+	font-family: 'Kaushan Script', cursive;
 	font-size: 1.15em;
 	letter-spacing: 1.5px;
 	position: absolute;	
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.9);
 	padding:10px;
 	left: 1%;
 	top: 0;
 }
 
 .quote {
-	font-family: 'Lobster', cursive;
-	background-color: rgba(0,0,0,0.3);
+	font-family: 'Parisienne', cursive;
+	background-color: rgba(0,0,0,0.9);
 	text-align: center;
 	margin:0 auto;
 	position: absolute;
@@ -59,14 +59,14 @@ body {
 
 .start {
 	color: white;
-	font-family: 'Courgette', cursive;
+	font-family: 'Kaushan Script', cursive;
 	font-size: 1.15em;
 	letter-spacing: 1.5px;
 	position: absolute;
 	padding: 10px;
-	bottom: 1%;
+	bottom: 3%;
 	right: 1%;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.9);
 	text-decoration: none;
 }
 

@@ -5,5 +5,5 @@
     <title>The Beauty of the Classics</title>
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Parisienne" rel="stylesheet">
   </head>

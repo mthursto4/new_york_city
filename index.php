@@ -1,5 +1,5 @@
 <?php
-include "inc/html-top.php"
+include "inc/html-top.inc"
 ?> 
 
   <body>
@@ -7,6 +7,10 @@ include "inc/html-top.php"
   	<section>
   		<h3 class="fact">Famous Classical Music Composers</h3>
   	</section>
+
+  	<?php
+  	include "inc/nav.inc"
+  	?>
 
   	<div class="quote">
 	    <h1>Clean. Ordered. Genteel.</h1>
@@ -19,7 +23,7 @@ include "inc/html-top.php"
 	</section>
 
 	<section>
-		<h3><a href="bach.php" class="start">Click here to get started!</a></h3>
+		<h3><a href="survey.php" class="start">Fill Out the Survey!</a></h3>
 	</section>
 
   </body>
