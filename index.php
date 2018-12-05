@@ -1,5 +1,5 @@
 <?php
-include "inc/html-top.php"
+include "inc/html-top.inc"
 ?> 
 
   <body>
@@ -7,6 +7,10 @@ include "inc/html-top.php"
   	<section>
   		<h3 class="fact">Famous Classical Music Composers</h3>
   	</section>
+
+  	<?php
+  	include "inc/nav.inc"
+  	?>
 
   	<div class="quote">
 	    <h1>Clean. Ordered. Genteel.</h1>

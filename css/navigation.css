@@ -1,0 +1,37 @@
+.navigation {
+	position: absolute;
+	top:1%;
+	right: 1%;
+	font-size: 1.5em;
+
+}
+
+.navigation a{
+	text-decoration: none;
+}
+
+.navigation a:hover{
+	color: red;
+	background-color: yellow;
+
+}
+
+
+.navigation li {
+	font-family: 'Kaushan Script', cursive;
+	display: inline-block;
+	border: 3px solid white;
+	padding: 5px;
+	margin:0px 5px 0px 5px;
+
+
+}
+
+.navigation li:last-child {
+	margin-right:0;
+}
+
+.navigation ul {
+	list-style-type: none;
+	text-align: right;
+}
