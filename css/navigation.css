@@ -1,6 +1,6 @@
 .navigation {
 	position: absolute;
-	top:1%;
+	top:0;
 	right: 1%;
 	font-size: 1.5em;
 
@@ -8,21 +8,23 @@
 
 .navigation a{
 	text-decoration: none;
+	color: white;
+
 }
 
 .navigation a:hover{
 	color: red;
-	background-color: yellow;
-
+	background-color: white;
 }
 
 
 .navigation li {
 	font-family: 'Kaushan Script', cursive;
 	display: inline-block;
-	border: 3px solid white;
-	padding: 5px;
-	margin:0px 5px 0px 5px;
+	border: 1.5px solid white;
+	padding: 7px;
+	margin:0px 15px 0px 15px;
+	background-color: rgba(0,0,0,0.8);
 
 
 }
