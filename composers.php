@@ -69,6 +69,10 @@ include "inc/html-top.inc"
 
     </section>
 
+    <footer>
+      <a href="https://www.thoughtco.com/top-classical-period-composers-724098">Source: ThoughtCo, Top Classical Composers</a>
+    </footer>
+
   </body>
 
 </html>
