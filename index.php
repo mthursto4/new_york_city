@@ -5,7 +5,7 @@ include "inc/html-top.inc"
   <body>
 
   	<section>
-  		<h3 class="fact">Famous Classical Music Composers</h3>
+  		<h3 class="fact">Music Madness: Classical Edition</h3>
   	</section>
 
   	<?php
@@ -19,11 +19,11 @@ include "inc/html-top.inc"
 	</div>
 
 	<section>
-		<h3 class="curious">Want to learn more about the composers?</h3>
+		<h3 class="curious">Learn more about classical composers</h3>
 	</section>
 
 	<section>
-		<h3><a href="survey.php" class="start">Fill Out the Survey!</a></h3>
+		<h3><a href="survey.php" class="start">Sign Up for Our Weekly Newsletters!</a></h3>
 	</section>
 
   </body>
