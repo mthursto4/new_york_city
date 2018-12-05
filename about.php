@@ -15,6 +15,7 @@ include "inc/html-top.inc"
     <h2>Meet the Makers:</h2>
 
     <h3>Efua Agyare-Kumi</h3>
+    <img src="images/efua.jpg">
       <ul>
         <li>Born in London, Great Britain</li>
         <li>Favorite composer: Beethoven</li>
@@ -22,6 +23,7 @@ include "inc/html-top.inc"
       </ul>
 
     <h3>Margaret Thurston</h3>
+    <img src="images/margaret2.jpg">
       <ul>
         <li>Born in Boston, Massachusetts</li>
         <li>Favorite composer: Brahms</li>

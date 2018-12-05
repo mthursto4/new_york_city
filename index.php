@@ -23,7 +23,7 @@ include "inc/html-top.inc"
 	</section>
 
 	<section>
-		<h3><a href="survey.php" class="start">Sign Up for Our Weekly Newsletters!</a></h3>
+		<h3><a href="newsletter.php" class="start">Sign Up for Our Weekly Newsletters!</a></h3>
 	</section>
 
   </body>
