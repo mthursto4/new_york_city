@@ -25,10 +25,6 @@ include "inc/html-top.inc"
               <input type="text" name="name" id="name">
             </div>
             <div>
-              <label for="dob" class="fixed">Date of Birth:</label>
-              <input type="date" name="dob" id="dob">
-            </div>
-            <div>
               <label for="email" class="fixed">Email:</label>
               <input type="email" name="email" id="email">
             </div>
@@ -62,13 +58,28 @@ include "inc/html-top.inc"
               <label for="recommendmaybe">Maybe</label>
               <input type="radio" name="recommend" id="recommendmaybe" value="Maybe">
             </div>
+
+            <legend>Have Your Say</legend>
+            <h3>What era would you like us to cover next?</h3>
+            <div>
+              <label for="baroque">Baroque</label>
+              <input type="radio" name="era" id="baroque" value="Baroque">
+            </div>
+            <div>
+              <label for="romantic">Romantic</label>
+              <input type="radio" name="era" id="romantic" value="Romantic">
+            </div>
+            <div>
+              <label for="neoclassical">NeoClassical</label>
+              <input type="radio" name="era" id="neoclassical" value="NeoClassical">
+            </div>
           </fieldset>
   
           <fieldset>
-            <legend>Helpful Suggestions</legend>
-            <h3>What else would you like to know about the Classical Era? Leave a note for us below!</h3>
+            <legend>Help Us Help You</legend>
+            <h3>What else would you like us to see? Specific musicians or pieces? Let us know how to improve!</h3>
             <div>
-              <textarea name="feedback" id="feedback"></textarea>
+              <textarea name="suggestions" id="suggestions"></textarea>
             </div>
           </fieldset>
 
@@ -79,7 +90,6 @@ include "inc/html-top.inc"
         </form>  
 
     </article>
-
 
   </body>
 
