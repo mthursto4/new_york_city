@@ -9,7 +9,7 @@ include "inc/html-top.inc"
   ?>
 
     <figure>
-      <img src="images/bach.jpeg">
+      <img src="images/bach.jpg">
       <figcaption>Portrait of Bach</figcaption>
     </figure>
 
@@ -24,7 +24,7 @@ include "inc/html-top.inc"
     </section>
 
     <figure>
-      <img src="images/beethoven.jpeg">
+      <img src="images/beethoven.jpg">
       <figcaption>Portrait of Beethoven</figcaption>
     </figure>
 
@@ -40,7 +40,7 @@ include "inc/html-top.inc"
     </section>
 
     <figure>
-      <img src="images/haydn.jpeg">
+      <img src="images/haydn.jpg">
       <figcaption>Portrait of Haydn</figcaption>
     </figure>
 
@@ -55,7 +55,7 @@ include "inc/html-top.inc"
     </section>
 
     <figure>
-      <img src="images/mozart.jpeg">
+      <img src="images/mozart.jpg">
       <figcaption>Portrait of Mozart</figcaption>
     </figure>
 
