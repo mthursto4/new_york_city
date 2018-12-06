@@ -87,6 +87,8 @@ include "inc/html-top.inc"
             <input type="submit" value="You're done! Submit!">
           </div>
 
+          <div><a href="admin/login.php">Admin</a></div>
+
         </form>  
 
     </article>
