@@ -1,5 +1,5 @@
 <?php
-include "inc/html-top.inc"
+include "inc/html-top.php"
 ?> 
 
   <body>
