@@ -12,11 +12,11 @@
 
     <section class="fpattern">
 
-    <h1 id="title">Music Madness</h1>
+    <h1 class="title">Music Madness</h1>
 
     <h2 class="maker">Meet the Makers:</h2>
 
-    <h3 id="name">Efua Agyare-Kumi</h3>
+    <h3 class="name">Efua Agyare-Kumi</h3>
     <img src="images/efua.jpg">
       <ul class="info">
         <li>Born in London, Great Britain</li>
@@ -24,7 +24,7 @@
         <li>Favorite musical era: Classical</li>
       </ul>
 
-    <h3 id="name">Margaret Thurston</h3>
+    <h3 class="name">Margaret Thurston</h3>
     <img src="images/margaret2.jpg">
       <ul class="info">
         <li>Born in Boston, Massachusetts</li>
@@ -32,7 +32,7 @@
         <li>Favorite musical era: Romantic</li>
       </ul>
 
-    <h3 id="name">Masa Kawabata</h3>
+    <h3 class="name">Masa Kawabata</h3>
       <ul class="info">
         <li>Born in London, Great Britain</li>
         <li>Favorite composer: Beethoven</li>
