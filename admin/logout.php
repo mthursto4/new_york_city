@@ -1,8 +1,4 @@
 <?php
-include "inc/head.php"
-?> 
-
-<?php
 // Initialize the session
 session_start();
  
