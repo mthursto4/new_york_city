@@ -18,9 +18,12 @@ include "../inc/head.php"
   <?php 
     $title = "Welcome";
     include "../inc/admin-head.php";?>
-
-</head>
 <body>
+
+    <?php 
+      include "../inc/nav.php"
+      ?>
+
     <div class="page-header">
         <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
     </div>

@@ -98,12 +98,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <?php 
     $title = "Admin Sign Up";
     include "../inc/admin-head.php";?>
-    <style type="text/css">
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 350px; padding: 20px; }
-    </style>
-</head>
-<body>
+    
+<body id="register">
+
+    <?php 
+      include "../inc/nav.php"
+      ?>
+      
     <div class="wrapper">
         <h2>Sign Up</h2>
         <p>Please fill this form to create an account.</p>

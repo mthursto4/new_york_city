@@ -7,9 +7,3 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Parisienne">
     <link rel="stylesheet" href="../css/admin.css">
 </head>
-
-  <h1>Testing admin-head</h1>
-  <p>blah blah blah</p>
-  <p>lalala</p>
-  <p>hahaha</p>
-  <p>This is to test html-top</p>

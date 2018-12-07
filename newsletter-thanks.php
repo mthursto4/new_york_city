@@ -12,7 +12,7 @@
     </section>
 
   <?php 
-  include "inc/nav.inc"
+  include "inc/nav.php"
   ?>
 
     <img src="images/thank-you.jpg">

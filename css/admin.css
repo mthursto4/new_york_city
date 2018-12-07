@@ -1,3 +1,5 @@
-body {
-	color: orange;
-}
+#login, #register, #reset-password { font: 14px sans-serif; }
+
+#login .wrapper { width: 350px; padding: 20px; }
+#register .wrapper { width: 350px; padding: 20px; }
+#reset-password .wrapper { width: 350px; padding: 20px; }

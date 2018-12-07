@@ -79,12 +79,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <?php 
     $title = "Reset Password";
     include "../inc/admin-head.php";?>
-    <style type="text/css">
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 350px; padding: 20px; }
-    </style>
-</head>
-<body>
+
+
+    <?php 
+      include "../inc/nav.php"
+      ?>
+    
+<body id="reset-password">
     <div class="wrapper">
         <h2>Reset Password</h2>
         <p>Please fill out this form to reset your password.</p>

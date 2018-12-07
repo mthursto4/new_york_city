@@ -8,7 +8,7 @@
   <body>
 
   <?php 
-  include "inc/nav.inc"
+  include "inc/nav.php"
   ?>
 
     <img src="images/quill.jpeg">
