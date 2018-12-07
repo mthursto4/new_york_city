@@ -1,5 +1,5 @@
 <?php
-include "inc/html-top.php"
+include "inc/head.php"
 ?> 
 
 <?php

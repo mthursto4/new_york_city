@@ -1,6 +1,9 @@
-<?php
-include "inc/html-top.php"
-?> 
+<!DOCTYPE html>
+<html lang="en-US">
+  <?php 
+    $title = "Sign Up";
+    include "inc/head.php";?>
+
 
   <body>
 

@@ -10,7 +10,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 ?>
 
 <?php
-include "../inc/html-top.php"
+include "../inc/head.php"
 ?>
  
 <!DOCTYPE html>
