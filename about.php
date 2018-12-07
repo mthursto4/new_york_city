@@ -10,39 +10,40 @@
   include "inc/nav.php"
   ?>
 
-    <section>
+    <section class="fpattern">
 
-    <h1>Music Madness</h1>
+    <h1 id="title">Music Madness</h1>
 
-    <h2>Meet the Makers:</h2>
+    <h2 class="maker">Meet the Makers:</h2>
 
-    <h3>Efua Agyare-Kumi</h3>
+    <h3 id="name">Efua Agyare-Kumi</h3>
     <img src="images/efua.jpg">
-      <ul>
+      <ul class="info">
         <li>Born in London, Great Britain</li>
         <li>Favorite composer: Beethoven</li>
         <li>Favorite musical era: Classical</li>
       </ul>
 
-    <h3>Margaret Thurston</h3>
+    <h3 id="name">Margaret Thurston</h3>
     <img src="images/margaret2.jpg">
-      <ul>
+      <ul class="info">
         <li>Born in Boston, Massachusetts</li>
         <li>Favorite composer: Brahms</li>
         <li>Favorite musical era: Romantic</li>
       </ul>
 
-    <h3>Masa Kawabata</h3>
-      <ul>
+    <h3 id="name">Masa Kawabata</h3>
+      <ul class="info">
         <li>Born in London, Great Britain</li>
         <li>Favorite composer: Beethoven</li>
         <li>Favorite musical era: Romantic</li>
       </ul>
 
+    <h2 class="maker">What We Do</h2>
 
-    <h2>What We Do</h2>
-
-    <p>We are musical nerds who listen to Debussy, Bach and Beethoven the way you probably listen to Taylor Swift. In one way or another, classical music saved each of us and now we can only hope to help it do the same for others. Every week, we will be in your inbox with fascinating tidbits of a musical era, of a spotlight on a composer or player. We hope that as you learn more about the wise, talented musicians who lived, you will see that greatness lies within you too. </p>
+    <p class="paragraph">We are musical nerds who listen to Debussy, Bach and Beethoven the way you probably listen to Taylor Swift. In one way or another, classical music saved each of us and now we can only hope to help it do the same for others. Every week, we will be in your inbox with fascinating tidbits of a musical era, of a spotlight on a composer or player. We hope that as you learn more about the wise, talented musicians who lived, you will see that greatness lies within you too. </p>
+    
+    </section>
 
   </body>
 
