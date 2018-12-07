@@ -11,28 +11,12 @@ body {
 
 /*Module Style Section*/
 
-.curious {
-	color: white;
-	font-family: 'Kaushan Script', cursive;
-	font-size: 1.15em;
-	letter-spacing: 1.5px;
-	position: absolute;	
-	background-color: rgba(0,0,0,0.9);
-	padding:10px;
-	left: 1%;
-	bottom: 0;
-}
 
-.fact {
+.font {
 	color: white;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 1.15em;
 	letter-spacing: 1.5px;
-	position: absolute;	
-	background-color: rgba(0,0,0,0.9);
-	padding:10px;
-	left: 1%;
-	top: 0;
 }
 
 .quote {
@@ -57,16 +41,35 @@ body {
 	letter-spacing: 1.5px;
 }
 
-.start {
-	color: white;
-	font-family: 'Kaushan Script', cursive;
-	font-size: 1.15em;
-	letter-spacing: 1.5px;
+/*Layout Style Section*/
+
+#learn{
+	position: absolute;	
+	background-color: rgba(0,0,0,0.9);
+	padding:10px;
+	left: 1%;
+	bottom: 0;
+}
+
+#madness{
+	position: absolute;	
+	background-color: rgba(0,0,0,0.9);
+	padding:10px;
+	left: 1%;
+	top: 0;
+}
+
+#signup {
 	position: absolute;
 	padding: 10px;
 	bottom: 3%;
 	right: 1%;
 	background-color: rgba(0,0,0,0.9);
 	text-decoration: none;
+	transition: 0.4s;
 }
 
+#signup:hover {
+	background-color: #ffe5db;
+	color: black;
+}

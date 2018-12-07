@@ -8,7 +8,7 @@
   <body>
 
   	<section>
-  		<h3 class="fact">Music Madness: Classical Edition</h3>
+  		<h3 class="font" id="madness">Music Madness: Classical Edition</h3>
   	</section>
 
   	<?php
@@ -22,11 +22,11 @@
 	</div>
 
 	<section>
-		<h3 class="curious">Learn more about classical composers</h3>
+		<h3 class="font" id="learn" >Learn more about classical composers</h3>
 	</section>
 
 	<section>
-		<h3><a href="newsletter.php" class="start">Sign Up for Our Weekly Newsletters!</a></h3>
+		<button><a href="newsletter.php" class="font" id="signup"> Sign Up for Our Weekly Newsletters!</a></button>
 	</section>
 
   </body>
