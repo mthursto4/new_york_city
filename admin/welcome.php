@@ -1,12 +1,4 @@
 <?php
-include "../inc/html-top.php"
-?> 
-
-<?php
-include "../inc/admin.php"
-?> 
-
-<?php
 // Initialize the session
 session_start();
  
@@ -15,6 +7,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     header("location: login.php");
     exit;
 }
+?>
+
+<?php
+include "../inc/html-top.php"
 ?>
  
 <!DOCTYPE html>
