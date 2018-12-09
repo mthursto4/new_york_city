@@ -11,17 +11,18 @@
   include "inc/nav.php"
   ?>
 
-    <img src="images/quill.jpeg">
+    <img src="images/survey.jpg" class="quill">
 
-    <header>
-      <h1>Subscribe today.</h1>
-      <div>Like What You Learned? Sign Up for our Weekly Newsletter!</div>
+    <article class="survey">
+
+    <header id="header">
+      	<h1>Subscribe today.</h1>
+      	<div>Like What You Learned? Sign Up for our Weekly Newsletter!</div>
     </header>
 
-    <article>
-      <h2>Sign Up Info</h2>
+      <h2>Sign Up Info:</h2>
         <form method="post" action="form-processor.php">
-          <fieldset>
+          <fieldset class="user">
             <legend>User Info</legend>
             <div>
               <label for="name" class="fixed">Name:</label>
@@ -33,7 +34,7 @@
             </div>
           </fieldset>
 
-          <fieldset>
+          <fieldset class="user">
             <legend>User Feedback</legend>
             <h3>Did you find our information useful? </h3>
             <div>
@@ -78,7 +79,7 @@
             </div>
           </fieldset>
   
-          <fieldset>
+          <fieldset class="user">
             <legend>Help Us Help You</legend>
             <h3>What else would you like us to see? Specific musicians or pieces? Let us know how to improve!</h3>
             <div>
@@ -86,11 +87,11 @@
             </div>
           </fieldset>
 
-          <div>
+          <div class="user">
             <input type="submit" value="You're done! Submit!">
           </div>
 
-          <div><a href="admin/login.php">Admin</a></div>
+          <div><a href="admin/login.php" class="admin">Admin</a></div>
 
         </form>  
 

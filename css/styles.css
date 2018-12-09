@@ -9,11 +9,26 @@ body {
   	background-size: cover;
 }
 
+header {
+
+}
+
 img {
 	border: 2px solid white;
 }
 
 /*Module Style Section*/
+
+.admin {
+	color: red;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.admin:hover { 
+	transition: 0.3s;
+	color: yellow;
+ }
 
 .details {
 	font-size: 1.15em;
@@ -59,6 +74,10 @@ img {
 	width: 80%;
 }
 
+.quill {
+	margin-bottom: 20px;
+}
+
 .quote {
 	font-family: 'Parisienne', cursive;
 	background-color: rgba(0,0,0,0.9);
@@ -98,9 +117,21 @@ img {
 	letter-spacing: 1.5px;
 }
 
+.survey {
+	font-family: 'Courgette', cursive;
+	background-color: rgba(0,0,0,0.75);
+	padding:15px;
+}
+
+
 .title {
 	font-size: 2.5em;
 	letter-spacing: 1.5px;
+}
+
+.user {
+	margin-bottom: 20px;
+	line-height: 2em;
 }
 
 
@@ -123,6 +154,9 @@ img {
 	top: 0;
 }
 
+#header {
+	font-size: 1.5em;
+}
 
 
 #signup {
