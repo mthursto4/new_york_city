@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
   <?php 
     $title = "Home";
     include "inc/head.php";?>

@@ -1,5 +1,20 @@
+/*Module Style Section */
+
+#signin {
+	background-color: rgba(0,0,0,0.9);
+	margin:0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/*Layout Style Section*/
+
 #login, #register, #reset-password { font: 14px sans-serif; }
 
-#login .wrapper { width: 350px; padding: 20px; }
+#login .wrapper { width: 600px; padding: 30px; }
+
 #register .wrapper { width: 350px; padding: 20px; }
+
 #reset-password .wrapper { width: 350px; padding: 20px; }
