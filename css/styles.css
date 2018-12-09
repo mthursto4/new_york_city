@@ -9,6 +9,10 @@ body {
   	background-size: cover;
 }
 
+img {
+	border: 2px solid white;
+}
+
 /*Module Style Section*/
 
 .details {
@@ -16,6 +20,7 @@ body {
 	letter-spacing: 1.5px;
 	line-height: 1.5;
 	width: 87.5%;
+	margin-bottom: 50px;
 }
 
 .font {
@@ -28,10 +33,9 @@ body {
 .fpattern {
 	font-family: 'Courgette', cursive;
 	border: 1px solid white;
-	padding-left: 30px;
 	margin-top: 100px;
 	background-color: rgba(0,0,0,0.75);
-	padding:40px;
+	padding:20px;
 }
 
 .info {
@@ -77,6 +81,18 @@ body {
 	letter-spacing: 1.5px;
 }
 
+.source a{
+	color: red;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.source a:hover {
+	transition: 0.3s;
+	color: yellow;
+
+}
+
 .sub {
 	font-size: 1.3em;
 	letter-spacing: 1.5px;
@@ -90,10 +106,6 @@ body {
 
 
 /*Layout Style Section*/
-
-#bach {
-	margin-bottom: 80px;
-}
 
 #learn{
 	position: absolute;	
