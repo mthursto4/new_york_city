@@ -100,7 +100,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       include "../inc/nav.php"
       ?>
 
-    <div class="wrapper" id="signin">
+    <div class="wrapper" id="center">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">

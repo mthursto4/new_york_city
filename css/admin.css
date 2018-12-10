@@ -1,6 +1,6 @@
 /*Module Style Section */
 
-#signin {
+#center {
 	background-color: rgba(0,0,0,0.9);
 	margin:0 auto;
 	position: absolute;
@@ -15,6 +15,6 @@
 
 #login .wrapper { width: 600px; padding: 30px; }
 
-#register .wrapper { width: 350px; padding: 20px; }
+#register .wrapper { width: 600px; padding: 30px; }
 
-#reset-password .wrapper { width: 350px; padding: 20px; }
+#reset-password .wrapper { width: 650px; padding: 30px; }
