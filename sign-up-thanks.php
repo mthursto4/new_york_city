@@ -23,8 +23,6 @@
 
     </section>
 
-    <section> Learn more about the grand masters of the Classical Era. </section>
-
   </body>
 
 </html>
