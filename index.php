@@ -21,7 +21,7 @@
 	</div>
 
 	<section>
-		<h3 class="font" id="learn" >Learn more about classical composers</h3>
+		<h3 class="font" id="learn" >Read this Week's Edition!</h3>
 	</section>
 
 	<section>
