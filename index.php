@@ -4,7 +4,6 @@
     $title = "Home";
     include "inc/head.php";?>
 
-
   <body>
 
   	<section>

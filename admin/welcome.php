@@ -24,7 +24,7 @@ include "../inc/head.php"
       include "../inc/nav.php"
       ?>
 
-    <div class="page-header">
+    <div class="page-header" id="center">
         <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
     </div>
 
