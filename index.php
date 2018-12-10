@@ -7,7 +7,7 @@
   <body>
 
   	<section>
-  		<h3 class="font" id="madness">Music Madness: Classical Edition</h3>
+  		<h3 class="font" id="madness">Music Madness Newsletters: Classical Edition</h3>
   	</section>
 
   	<?php
