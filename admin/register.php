@@ -1,3 +1,4 @@
+<!-- Attribution: Most of this code is from https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php -->
 <?php
 // Include config file
 require_once "config.php";
