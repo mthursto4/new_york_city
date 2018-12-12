@@ -1,9 +1,5 @@
 <!-- Attribution: Most of this code is from https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php -->
 <?php
-include "inc/head.php"
-?> 
-
-<?php
 // Initialize the session
 session_start();
  
@@ -103,7 +99,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Submit">
-                <a class="btn btn-link" href="welcome.php">Cancel</a>
+                <a class="btn btn-link" href="index.php">Cancel</a>
             </div>
         </form>
     </div>    

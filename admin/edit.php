@@ -2,7 +2,7 @@
 
 <?php
 // including the database connection file
-include_once("../admin/config.php");
+include_once("config.php");
  
 if(isset($_POST['update']))
 {    
@@ -57,8 +57,8 @@ if(isset($_POST['update']))
         //updating the table
         $result = mysqli_query($mysqli, "UPDATE results SET name='$name',email='$email',knowledge='$knowledge',interest='$interest',useful='$useful',recommend='$recommend',era='$era',suggestions='$suggestions' WHERE id=$id");
         
-        //redirectig to the display page. In our case, it is ../admin/welcome.php
-        header("Location: ../admin/welcome.php");
+        //redirectig to the display page. In our case, it is index.php
+        header("Location: index.php");
     }
 }
 ?>

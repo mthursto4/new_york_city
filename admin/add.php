@@ -8,7 +8,7 @@
 <body>
 <?php
 //including the database connection file
-include_once("../admin/config.php");
+include_once("config.php");
  
 if(isset($_POST['Submit'])) {    
     $name = $_POST['name'];
@@ -66,7 +66,7 @@ if(isset($_POST['Submit'])) {
         // Check if the user is already logged in, if yes then display success message with a link to view results
         if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
             echo "<font color='green'>Data added successfully.";
-            echo "<br/><a href='../admin/welcome.php'>View Result</a>";
+            echo "<br/><a href='index.php'>View Result</a>";
         } else { 
             // If the user is not logged in, redirect user to sign-up-thanks.php
             header("location: ../sign-up-thanks.php");
