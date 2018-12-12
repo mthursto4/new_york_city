@@ -6,9 +6,9 @@
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 define('DB_SERVER', '66.147.242.186');
-define('DB_USERNAME', 'urcscon3_newyork');
-define('DB_PASSWORD', 'liberty');
-define('DB_NAME', 'urcscon3_newyork');
+define('DB_USERNAME', 'urcscon3_nyc2');
+define('DB_PASSWORD', 'coffee1N/!');
+define('DB_NAME', 'urcscon3_nyc2');
  
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
@@ -19,9 +19,6 @@ if (!$link) {
     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
     exit;
-} else {
-	echo '<p>Connection OK '. $mysqli->host_info.'</p>';
-	echo '<p>Server '. $mysqli->server_info.'</p>';
 }
 
 ?>
