@@ -1,3 +1,5 @@
+<!-- Attribution: Most of this code is from http://blog.chapagain.com.np/very-simple-add-edit-delete-view-in-php-mysql/ -->
+
 <html>
 <head>
     <title>Add Data</title>
