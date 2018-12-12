@@ -7,19 +7,15 @@
 
   <body>
 
-  <section>
-      <h3 class="fact">Famous Classical Music Composers</h3>
-    </section>
-
   <?php 
   include "inc/nav.php"
   ?>
 
-    <img src="images/thank-you.jpg">
+    <img src="images/thank-you.jpg" class="thankyou">
 
     <section>
 
-    <h1>Your form has been received. You will be hearing from us shortly!</h1>
+    <h1 class="thanksfont">Your form has been received. You will be hearing from us shortly!</h1>
 
     </section>
 
