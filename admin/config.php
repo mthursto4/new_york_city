@@ -1,4 +1,7 @@
-<!-- Attribution: Most of this code is from https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php -->
+<!-- Attribution: Most of this code is from 
+	https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php 
+	and some from Professor Kostin's CSC 174 files
+-->
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
@@ -14,6 +17,11 @@ if (!$link) {
     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
     exit;
+} else {
+	echo '<p>Connection OK '. $mysqli->host_info.'</p>';
+	echo '<p>Server '. $mysqli->server_info.'</p>';
 }
 
 ?>
+
+
