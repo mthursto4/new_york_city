@@ -6,7 +6,7 @@
 <body>
 <?php
 //including the database connection file
-include_once("config.php");
+include_once("../admin/config.php");
  
 if(isset($_POST['Submit'])) {    
     $name = $_POST['name'];
