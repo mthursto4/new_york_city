@@ -18,8 +18,13 @@ $result = mysqli_query($mysqli, "SELECT * FROM results ORDER BY id DESC"); // us
     <table width='80%' border=0>
         <tr bgcolor='#CCCCCC'>
             <td>Name</td>
-            <td>Age</td>
             <td>Email</td>
+            <td>Knowledge</td>
+            <td>Interest</td>
+            <td>Useful</td>
+            <td>Recommend</td>
+            <td>Era</td>
+            <td>Suggestions</td>
             <td>Update</td>
         </tr>
         <?php 
@@ -27,8 +32,13 @@ $result = mysqli_query($mysqli, "SELECT * FROM results ORDER BY id DESC"); // us
         while($res = mysqli_fetch_array($result)) {         
             echo "<tr>";
             echo "<td>".$res['name']."</td>";
-            echo "<td>".$res['age']."</td>";
-            echo "<td>".$res['email']."</td>";    
+            echo "<td>".$res['email']."</td>";
+            echo "<td>".$res['knowledge']."</td>";
+            echo "<td>".$res['interest']."</td>";
+            echo "<td>".$res['useful']."</td>";
+            echo "<td>".$res['recommend']."</td>";
+            echo "<td>".$res['era']."</td>";
+            echo "<td>".$res['suggestions']."</td>";    
             echo "<td><a href=\"edit.php?id=$res[id]\">Edit</a> | <a href=\"delete.php?id=$res[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a></td>";        
         }
         ?>
