@@ -27,8 +27,8 @@ if(isset($_POST['update']))
         //updating the table
         $result = mysqli_query($mysqli, "UPDATE users SET name='$name',age='$age',email='$email' WHERE id=$id");
         
-        //redirectig to the display page. In our case, it is index.php
-        header("Location: index.php");
+        //redirectig to the display page. In our case, it is ../admin/welcome.php
+        header("Location: ../admin/welcome.php");
     }
 }
 ?>
@@ -52,7 +52,7 @@ while($res = mysqli_fetch_array($result))
 </head>
  
 <body>
-    <a href="index.php">Home</a>
+    <a href="../admin/welcome.php">Home</a>
     <br/><br/>
     
     <form name="form1" method="post" action="edit.php">

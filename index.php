@@ -21,11 +21,11 @@
 	</div>
 
 	<section>
-		<h3 class="font" id="learn" >Read this Week's Edition!</h3>
-	</section>
-
+    <h3 class="font" id="learn" >Read this Week's Edition!</h3>
+  </section>
+  
 	<section>
-		<button><a href="newsletter.php" class="font" id="signup"> Sign Up for Our Weekly Newsletters!</a></button>
+		<button><a href="sign-up.php" class="font" id="signup"> Sign Up for Our Weekly Newsletters!</a></button>
 	</section>
 
   </body>

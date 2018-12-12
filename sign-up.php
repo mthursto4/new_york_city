@@ -21,7 +21,7 @@
     </header>
 
       <h2>Sign Up Info:</h2>
-        <form method="post" action="form-processor.php">
+        <form method="post" action="survey_results/add.php" name="sign-up-form">
           <fieldset class="user">
             <legend>User Info</legend>
             <div>
@@ -134,7 +134,7 @@
 
 
           <div class="user">
-            <input type="submit" value="You're done! Submit!">
+            <input type="submit" name="Submit" value="You're done! Submit!">
           </div>
 
           <div><a href="admin/login.php" class="admin">Admin</a></div>
