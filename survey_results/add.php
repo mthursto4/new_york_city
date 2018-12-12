@@ -60,8 +60,17 @@ if(isset($_POST['Submit'])) {
         $result = mysqli_query($mysqli, "INSERT INTO results(name,email,knowledge,interest,useful,recommend,era,suggestions) VALUES('$name','$email','$knowledge','$interest','$useful','$recommend','$era','$suggestions',)");
         
         //display success message
-        echo "<font color='green'>Data added successfully.";
-        echo "<br/><a href='../admin/welcome.php'>View Result</a>";
+
+        // Check if the user is already logged in, if yes then display success message with a link to view results
+        if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+            echo "<font color='green'>Data added successfully.";
+            echo "<br/><a href='../admin/welcome.php'>View Result</a>";
+        } else { 
+            // If the user is not logged in, redirect user to sign-up-thanks.php
+            header("location: ../sign-up-thanks.php");
+            exit;
+        }
+
     }
 }
 ?>
