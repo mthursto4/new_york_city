@@ -73,7 +73,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM results ORDER BY id DESC"); // us
           </table>
 
 
-          <a href="add.html">Add New Data</a><br/><br/>
+          <a href="../sign-up.php">Add New Data</a><br/><br/>
 
         <p>
             <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
