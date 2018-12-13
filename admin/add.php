@@ -1,5 +1,16 @@
 <!-- Attribution: Most of this code is from http://blog.chapagain.com.np/very-simple-add-edit-delete-view-in-php-mysql/ -->
 
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?>
+
 <html>
 <head>
     <title>Add Data</title>
