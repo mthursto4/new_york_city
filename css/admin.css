@@ -6,6 +6,8 @@
 	font-family: "Courgette", cursive; 
 }
 
+
+
 .survey {
 	/*position: absolute;*/
 	top: 3%;
@@ -14,6 +16,9 @@
 	font-family: "Courgette", cursive; 
 	padding:20px;
 }
+
+
+
 /*Layout Style Section*/
 
 .edit-page input {

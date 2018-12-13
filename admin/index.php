@@ -38,10 +38,6 @@ $result = mysqli_query($link, "SELECT * FROM results ORDER BY id DESC"); // usin
       include "../inc/admin-nav.php"
       ?>
 
-    <div class="page-header">
-        <h1 class="color">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
-    </div>
-
     <div class="survey" id="center">
         <h2>Survey Results</h2>
 
