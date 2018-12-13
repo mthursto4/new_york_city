@@ -10,11 +10,13 @@
     include "../inc/admin-head.php";?>
 
 
+<body>
     <?php 
-      include "../inc/nav.php"
+      include "../inc/admin-nav.php"
       ?>
  
-<body>
+
+
 <?php
 //including the database connection file
 include_once("config.php");

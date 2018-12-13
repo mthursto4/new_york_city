@@ -98,7 +98,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body id="login">
 
     <?php 
-      include "../inc/nav.php"
+      include "../inc/admin-nav.php"
       ?>
 
     <div class="wrapper" id="center">

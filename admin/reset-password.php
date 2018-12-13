@@ -78,11 +78,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     include "../inc/admin-head.php";?>
 
 
+<body id="reset-password">
     <?php 
-      include "../inc/nav.php"
+      include "../inc/admin-nav.php"
       ?>
     
-<body id="reset-password">
+
+    
     <div class="wrapper" id="center">
         <h2>Reset Password</h2>
         <p>Please fill out this form to reset your password.</p>

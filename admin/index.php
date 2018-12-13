@@ -35,7 +35,7 @@ $result = mysqli_query($link, "SELECT * FROM results ORDER BY id DESC"); // usin
 <body>
 
     <?php 
-      include "../inc/nav.php"
+      include "../inc/admin-nav.php"
       ?>
 
     <div class="page-header">

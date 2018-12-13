@@ -103,7 +103,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body id="register">
 
     <?php 
-      include "../inc/nav.php"
+      include "../inc/admin-nav.php"
       ?>
       
     <div class="wrapper" id="center">

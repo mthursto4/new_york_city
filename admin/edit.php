@@ -99,16 +99,11 @@ while($res = mysqli_fetch_array($result))
     $title = "Edit Data";
     include "../inc/admin-head.php";?>
 
-
-    <?php 
-      include "../inc/nav.php"
-      ?>
- 
 <body>
 
   <?php 
-  include "inc/nav.php"
-  ?>
+    include "../inc/admin-nav.php"
+    ?>
 
     <img src="images/survey.jpg" class="quill">
 
