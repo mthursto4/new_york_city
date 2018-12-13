@@ -21,7 +21,7 @@
 
 /*Layout Style Section*/
 
-.edit-page input {
+.edit-page input, textarea {
 	color: black;
 }
 
