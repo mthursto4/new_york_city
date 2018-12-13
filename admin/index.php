@@ -38,24 +38,24 @@ $result = mysqli_query($link, "SELECT * FROM results ORDER BY id DESC"); // usin
       include "../inc/nav.php"
       ?>
 
-    <div class="page-header" id="center">
+    <div class="page-header">
         <h1 class="color">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
     </div>
 
-    <div class="survey">
+    <div class="survey" id="center">
         <h2>Survey Results</h2>
 
-          <table width='80%' border=0>
-              <tr bgcolor='#CCCCCC'>
-                  <td>Name</td>
-                  <td>Email</td>
-                  <td>Knowledge</td>
-                  <td>Interest</td>
-                  <td>Useful</td>
-                  <td>Recommend</td>
-                  <td>Era</td>
-                  <td>Suggestions</td>
-                  <td>Update</td>
+          <table class="results-table">
+              <tr>
+                  <td class="first-row">Name</td>
+                  <td class="first-row" id="email-display">Email</td>
+                  <td class="first-row">Knowledge</td>
+                  <td class="first-row">Interest</td>
+                  <td class="first-row">Useful</td>
+                  <td class="first-row">Recommend</td>
+                  <td class="first-row">Era</td>
+                  <td class="first-row" id="suggestions-display">Suggestions</td>
+                  <td class="first-row">Update</td>
               </tr>
               <?php 
               //while($res = mysql_fetch_array($result)) { // mysql_fetch_array is deprecated, we need to use mysqli_fetch_array 
@@ -76,7 +76,7 @@ $result = mysqli_query($link, "SELECT * FROM results ORDER BY id DESC"); // usin
           </table>
 
 
-          <a href="../sign-up.php">Add New Data</a><br/><br/>
+          <a href="../sign-up.php" class="btn btn-primary" id="add-new">Add New Data</a><br/><br/>
 
         <p>
             <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>

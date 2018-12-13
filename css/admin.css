@@ -33,3 +33,56 @@
 #register .wrapper { width: 600px; padding: 30px; }
 
 #reset-password .wrapper { width: 650px; padding: 30px; }
+
+
+
+.page-header {
+	padding-left: 20px;
+}
+
+
+
+
+
+.results-table {
+	max-width: 80% ; /* not sure if this works */
+	border: 1px solid white; /* this doesn't work; not sure why */
+	background-color: rgba(255,255,255,0.2);
+}
+
+
+.results-table tr {
+	bgcolor: #CCCCCC;
+	border: 1px solid black;
+}
+
+.results-table td {
+	padding: 10px;
+}
+
+.results-table .first-row {
+	color: white;
+	background-color: rgba(0,0,0,0.9);
+	border: 1px solid white;
+}
+
+.results-table #suggestions-display {
+	min-width: 200px;
+}
+
+
+#add-new {
+	margin-top: 20px;
+}
+
+
+
+/* This doesn't work currently:
+
+	.results-table #email-display {
+		max-width: 50px;
+		word-wrap: break-word;
+	}
+
+ */
+
