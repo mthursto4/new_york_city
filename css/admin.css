@@ -77,6 +77,13 @@
 
 
 
+
+#update {
+	color: black;
+}
+
+
+
 /* This doesn't work currently:
 
 	.results-table #email-display {

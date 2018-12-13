@@ -234,7 +234,7 @@ while($res = mysqli_fetch_array($result))
 
           <div class="user">
             <td><input type="hidden" name="id" value=<?php echo $_GET['id'];?>></td>
-            <td><input type="submit" name="update" value="Update"></td>
+            <td><input type="submit" name="update" value="Update" id="update"></td>
           </div>
 
 
