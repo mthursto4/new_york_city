@@ -21,7 +21,7 @@
     </header>
 
       <h2>Sign Up Info:</h2>
-        <form method="post" action="admin/add.php" name="sign-up-form">
+        <form method="post" action="admin/process.php" name="sign-up-form">
           <fieldset class="user">
             <legend>User Info</legend>
             <div>

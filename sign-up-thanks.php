@@ -19,6 +19,13 @@
 
     </section>
 
+
+    <footer>
+
+      <div><a href="admin/index.php" class="admin">Admins: View Results</a></div>
+
+    </footer>
+
   </body>
 
 </html>

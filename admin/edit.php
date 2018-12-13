@@ -115,7 +115,7 @@ while($res = mysqli_fetch_array($result))
     </header>
 
       <h2>Sign Up Info:</h2>
-        <form method="post" action="add.php" name="sign-up-form">
+        <form method="post" action="process.php" name="sign-up-form">
           <fieldset class="user">
             <legend>User Info</legend>
             <div>

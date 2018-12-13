@@ -72,10 +72,17 @@ if(isset($_POST['Submit'])) {
         //insert data to database
         $result = mysqli_query($link, "INSERT INTO results(name, email, knowledge, interest, useful, recommend, era, suggestions) VALUES('$name','$email','$knowledge','$interest','$useful','$recommend','$era','$suggestions')");
         
-        //display success message
+
+        // Check if the user is logged in; if not, redirect user to sign-up-thanks page
+            if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+                header("location: ../sign-up-thanks.php");
+                exit;
+            }
+
+        // Otherwise display success message
             echo "<font color='green'>Data added successfully.";
             echo "<br/><a href='index.php'>View Result</a>";
-        
+
 
     }
 }
