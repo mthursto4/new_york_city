@@ -37,6 +37,7 @@
       </ul>
 
     <h3 class="name">Masa Kawabata</h3>
+    <img src="images/masa.jpg">
       <ul class="info">
         <li>Born in London, Great Britain</li>
         <li>Favorite composer: Beethoven</li>
