@@ -1,15 +1,7 @@
-<!-- Attribution: Most of this code is from http://blog.chapagain.com.np/very-simple-add-edit-delete-view-in-php-mysql/ -->
-
-<?php
-// Initialize the session
-session_start();
- 
-// Check if the user is logged in, if not then redirect him to login page
-if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.php");
-    exit;
-}
-?>
+<!-- Attribution: 
+    Most of this code is from http://blog.chapagain.com.np/very-simple-add-edit-delete-view-in-php-mysql/ 
+    Inspiration from http://csc174.org/assignment13/london
+-->
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -76,19 +68,12 @@ if(isset($_POST['Submit'])) {
     } else { 
         // if all the fields are filled (not empty)             
         //insert data to database
-        $result = mysqli_query($mysqli, "INSERT INTO results(name,email,knowledge,interest,useful,recommend,era,suggestions) VALUES('$name','$email','$knowledge','$interest','$useful','$recommend','$era','$suggestions',)");
+        $result = mysqli_query($link, "INSERT INTO results(name, email, knowledge, interest, useful, recommend, era, suggestions) VALUES('$name','$email','$knowledge','$interest','$useful','$recommend','$era','$suggestions')");
         
         //display success message
-
-        // Check if the user is already logged in, if yes then display success message with a link to view results
-        if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
             echo "<font color='green'>Data added successfully.";
             echo "<br/><a href='index.php'>View Result</a>";
-        } else { 
-            // If the user is not logged in, redirect user to sign-up-thanks.php
-            header("location: ../sign-up-thanks.php");
-            exit;
-        }
+        
 
     }
 }

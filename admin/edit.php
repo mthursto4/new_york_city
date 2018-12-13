@@ -66,7 +66,7 @@ if(isset($_POST['update']))
         echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
     } else {    
         //updating the table
-        $result = mysqli_query($mysqli, "UPDATE results SET name='$name',email='$email',knowledge='$knowledge',interest='$interest',useful='$useful',recommend='$recommend',era='$era',suggestions='$suggestions' WHERE id=$id");
+        $result = mysqli_query($link, "UPDATE results SET name='$name',email='$email',knowledge='$knowledge',interest='$interest',useful='$useful',recommend='$recommend',era='$era',suggestions='$suggestions' WHERE id=$id");
         
         //redirectig to the display page. In our case, it is index.php
         header("Location: index.php");
@@ -78,7 +78,7 @@ if(isset($_POST['update']))
 $id = $_GET['id'];
  
 //selecting data associated with this particular id
-$result = mysqli_query($mysqli, "SELECT * FROM results WHERE id=$id");
+$result = mysqli_query($link, "SELECT * FROM results WHERE id=$id");
  
 while($res = mysqli_fetch_array($result))
 {
@@ -120,7 +120,7 @@ while($res = mysqli_fetch_array($result))
     </header>
 
       <h2>Sign Up Info:</h2>
-        <form method="post" action="survey_results/add.php" name="sign-up-form">
+        <form method="post" action="add.php" name="sign-up-form">
           <fieldset class="user">
             <legend>User Info</legend>
             <div>

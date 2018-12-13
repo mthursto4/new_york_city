@@ -1,6 +1,9 @@
-<!-- Attribution: Most of this code is from 
-  https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php 
-  and http://blog.chapagain.com.np/very-simple-add-edit-delete-view-in-php-mysql/-->
+<!-- Attribution: 
+  Most of this code is from 
+    https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php 
+    and http://blog.chapagain.com.np/very-simple-add-edit-delete-view-in-php-mysql/
+  Inspiration from http://csc174.org/assignment13/london
+-->
 
 <?php
 // Initialize the session
@@ -19,7 +22,7 @@ include_once("config.php");
  
 //fetching data in descending order (lastest entry first)
 //$result = mysql_query("SELECT * FROM results ORDER BY id DESC"); // mysql_query is deprecated
-$result = mysqli_query($mysqli, "SELECT * FROM results ORDER BY id DESC"); // using mysqli_query instead
+$result = mysqli_query($link, "SELECT * FROM results ORDER BY id DESC"); // using mysqli_query instead
 ?>
 
 
