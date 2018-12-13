@@ -105,7 +105,7 @@ while($res = mysqli_fetch_array($result))
     include "../inc/admin-nav.php"
     ?>
 
-    <!-- <img src="../images/survey.jpg" class="quill"> -->
+    <img src="../images/survey.jpg" class="quill">
 
     <article class="survey">
 

@@ -79,13 +79,16 @@ if(isset($_POST['Submit'])) {
                 exit;
             }
 
-        // Otherwise display success message
-            echo "<font color='green'>Data added successfully.";
-            echo "<br/><a href='index.php'>View Result</a>";
-
-
     }
 }
 ?>
+
+    <div class="wrapper" id="center">
+        <h1>Data added successfully.</h1>
+        <a href='index.php'>View Result</a>
+    </div>
+
+
+
 </body>
 </html>

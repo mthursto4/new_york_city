@@ -7,33 +7,18 @@
 }
 
 .survey {
-	position: absolute;
+	/*position: absolute;*/
 	top: 3%;
 	left: 3%;
 	background-color: rgba(0,0,0,0.8);
 	font-family: "Courgette", cursive; 
-	padding:10px;
+	padding:20px;
 }
 /*Layout Style Section*/
 
-#center {
-	background-color: rgba(0,0,0,0.9);
-	margin:0 auto;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	padding:30px;
+.edit-page input {
+	color: black;
 }
-
-#login, #register, #reset-password { font: 14px sans-serif; }
-
-#login .wrapper { width: 600px; padding: 30px; }
-
-#register .wrapper { width: 600px; padding: 30px; }
-
-#reset-password .wrapper { width: 650px; padding: 30px; }
-
 
 
 .page-header {
@@ -75,18 +60,27 @@
 	margin-top: 20px;
 }
 
+#center {
+	background-color: rgba(0,0,0,0.9);
+	margin:0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding:30px;
+}
 
+#login, #register, #reset-password { font: 14px sans-serif; }
 
+#login .wrapper { width: 600px; padding: 30px; }
+
+#register .wrapper { width: 600px; padding: 30px; }
+
+#reset-password .wrapper { width: 650px; padding: 30px; }
 
 #update {
 	color: black;
 }
-
-
-.edit-page input {
-	color: black;
-}
-
 
 
 /* This doesn't work currently:
