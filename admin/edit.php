@@ -92,10 +92,17 @@ while($res = mysqli_fetch_array($result))
     $suggestions = $res['suggestions'];
 }
 ?>
-<html>
-<head>    
-    <title>Edit Data</title>
-</head>
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <?php 
+    $title = "Edit Data";
+    include "../inc/admin-head.php";?>
+
+
+    <?php 
+      include "../inc/nav.php"
+      ?>
  
 <body>
 

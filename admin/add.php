@@ -11,10 +11,16 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 }
 ?>
 
-<html>
-<head>
-    <title>Add Data</title>
-</head>
+<!DOCTYPE html>
+<html lang="en-US">
+  <?php 
+    $title = "Add Data";
+    include "../inc/admin-head.php";?>
+
+
+    <?php 
+      include "../inc/nav.php"
+      ?>
  
 <body>
 <?php
